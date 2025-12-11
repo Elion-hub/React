@@ -1,16 +1,61 @@
-# React + Vite
+# 🚀 GitHub User Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web construida con **React** que permite buscar usuarios de GitHub y mostrar información relevante como avatar, bio, estadísticas y redes sociales. Incluye **modo oscuro/claro**, manejo de errores y diseño con **TailwindCSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Contacto
+- LinkedIn: [www.linkedin.com/in/josem-garcia-](https://www.linkedin.com/in/josem-garcia-)
+---
 
-## React Compiler
+## ✨ Características principales
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 Búsqueda de usuarios de GitHub por username  
+- 🌗 Tema claro/oscuro con toggle  
+- 📊 Datos mostrados:
+  - Avatar y nombre  
+  - Fecha de creación de la cuenta  
+  - Bio  
+  - Repos públicos  
+  - Followers / Following  
+  - Ubicación  
+  - Twitter  
+- ❌ Manejo de errores  
+- ⏳ Indicador de carga  
+- 🧩 Componentes modulares  
+- 💨 Estilos con TailwindCSS  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologías utilizadas
+
+- **React + Vite**
+- **TailwindCSS**
+- **GitHub REST API**
+- **JavaScript (Hooks: useState, useEffect)**
+
+---
+
+## 📁 Estructura del proyecto
+
+src/
+├── components/
+│ ├── Header.jsx
+│ ├── SearchBar.jsx
+│ └── UserCard.jsx
+├── App.jsx
+├── main.jsx
+├── index.css
+
+---
+
+## ⚙️ Requisitos previos
+
+- Node.js 18 o superior  
+- Token personal de GitHub (para evitar limitación de peticiones)
+
+---
+## Vista previa
+
+![Rothko Painting](https://raw.githubusercontent.com/Elion-hub/React/main/dev-finder/DevFinder.PNG)
+
